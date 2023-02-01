@@ -21,3 +21,7 @@ Construção de site com Poesias de Cordel
 
 ### Commit 05 - 17:55
 * Adequação do link para a poesia
+
+### Commit 06 - 19:17
+* Pequenos ajustes no CSS
+* Link do footer
