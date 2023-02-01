@@ -29,17 +29,26 @@ nav > h1::first-letter{
     font-size: 1.4em;
 }
 
-nav > p{
-    font: normal bold .9em Arial;
-    padding: 2px 0;
-}
-
-nav > p > span{
+nav > p {
     font: normal lighter 1em Arial;
 }
 
-nav > span{
-    color: var(--preto);
+nav > p > a{
+    color: var(--branco);
+    text-decoration: none;
+    font: normal bold 1em Arial;
+}
+
+nav > p > a:hover{
+    text-decoration: underline;
+}
+
+nav > p > a:visited{
+    color: var(--branco);
+}
+
+nav > p > a:active{
+    text-decoration: 2px underline;
 }
 
 main{
