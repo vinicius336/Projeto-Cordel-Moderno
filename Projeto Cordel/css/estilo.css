@@ -41,3 +41,60 @@ nav > p > span{
 nav > span{
     color: var(--preto);
 }
+
+main{
+    width: 100%;
+}
+
+article{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid var(--preto);
+}
+
+aside{
+    width: 100%;
+    height: 400px;
+}
+
+div{
+
+}
+
+.estrofe{
+    position: relative;
+    top: 12%;
+    width: 220px;
+    height: 260px;
+    padding: 10px;
+    font: normal normal 1em 'Sriracha';
+}
+
+.estrofe > p{
+    padding: 4px;
+}
+
+#joaninha{
+    background: var(--preto) url(../imagens/background001.jpg) no-repeat right center fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+#papiro{
+    background: var(--preto) url(../imagens/background002.jpg) no-repeat right bottom fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+#joaninha > .estrofe, #papiro > .estrofe{
+    background-color: var(--pretoTransparente);
+    color: var(--branco);
+}
+
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    padding: 10px;
+    font: normal normal 1em Tahoma;
+}

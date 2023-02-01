@@ -14,3 +14,7 @@ Construção de site com Poesias de Cordel
 ### Commit 03 - 16:42
 * Adicionadas as imagens de uso do site
 * Barra de título ok
+
+### Commit 04 - 17:43
+* Corpo do site elaborado com o CSS
+* Footer ok
