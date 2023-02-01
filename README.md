@@ -10,3 +10,7 @@ Construção de site com Poesias de Cordel
 * Criação da estrutura do arquivo index.html
 * Criação e ligação dos arquivos reset.css e estilo.css
 * Organizado a estrutura das estrofes
+
+### Commit 03 - 16:42
+* Adicionadas as imagens de uso do site
+* Barra de título ok
