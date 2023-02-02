@@ -9,28 +9,25 @@
 }
 
 body{
-    width: 100%;
+    /*width: 100%;*/
+    min-height: 100vh;
 }
 
 header{
     background-color: var(--preto);
     color: var(--branco);
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 header > h1{
-    display: inline-block;
-    font: normal normal 2.5em 'Passion One';
-    padding: 10px 0 0 0;
-}
-
-header > h1::first-letter{
-    font-size: 1.4em;
+    font: normal normal 10vw 'Passion One';
+    font-variant: small-caps;
 }
 
 header > p {
     font: normal lighter 1em Arial;
+
 }
 
 header > p > a{
@@ -52,45 +49,36 @@ header > p > a:active{
 }
 
 main{
-    width: 100%;
-}
-
-article{
-    width: 80%;
-    margin: 0px auto;
-    border: 1px solid var(--preto);
+    /*width: 100%;*/
 }
 
 section{
     width: 100%;
-    height: 400px;
+    /*height: 400px;*/
 }
 
 .estrofe{
-    display: inline-block;
-    position: relative;
-    padding: 0px;
-    margin: 50px 20px;
-    font: normal normal 1.5em 'Sriracha';
-}
-
-.estrofe > p{
-    padding: 4px;
+    font: normal normal 3.5vw 'Sriracha';
+    padding: 6vh 0;
+    padding-left: 30px;
+    line-height: 2em;
 }
 
 #joaninha{
     background: var(--preto) url(../imagens/background001.jpg) no-repeat right center fixed;
     background-size: cover;
-    height: 500px;
 }
 
 #papiro{
     background: var(--preto) url(../imagens/background002.jpg) no-repeat right bottom fixed;
     background-size: cover;
-    height: 500px;
 }
 
 #joaninha > .estrofe, #papiro > .estrofe{
+}
+
+#joaninha > .estrofe > p, #papiro > .estrofe > p{
+    display: inline-block;
     background-color: var(--pretoTransparente);
     color: var(--branco);
 }
