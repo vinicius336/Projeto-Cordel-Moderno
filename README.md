@@ -25,3 +25,7 @@ Construção de site com Poesias de Cordel
 ### Commit 06 - 19:17
 * Pequenos ajustes no CSS
 * Link do footer
+
+### Commit 07 - 22:30
+* Adequação do header
+* Adequação do section

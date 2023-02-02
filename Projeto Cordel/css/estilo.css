@@ -12,42 +12,42 @@ body{
     width: 100%;
 }
 
-nav{
+header{
     background-color: var(--preto);
     color: var(--branco);
     text-align: center;
     padding: 20px 0;
 }
 
-nav > h1{
+header > h1{
     display: inline-block;
     font: normal normal 2.5em 'Passion One';
     padding: 10px 0 0 0;
 }
 
-nav > h1::first-letter{
+header > h1::first-letter{
     font-size: 1.4em;
 }
 
-nav > p {
+header > p {
     font: normal lighter 1em Arial;
 }
 
-nav > p > a{
+header > p > a{
     color: var(--branco);
     text-decoration: none;
     font: normal bold 1em Arial;
 }
 
-nav > p > a:hover{
+header > p > a:hover{
     text-decoration: underline;
 }
 
-nav > p > a:visited{
+header > p > a:visited{
     color: var(--branco);
 }
 
-nav > p > a:active{
+header > p > a:active{
     text-decoration: 2px underline;
 }
 
@@ -61,7 +61,7 @@ article{
     border: 1px solid var(--preto);
 }
 
-aside{
+section{
     width: 100%;
     height: 400px;
     
